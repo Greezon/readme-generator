@@ -1,7 +1,6 @@
-const inquirer = require("inquirer")
-
 const inquirer = require ("inquirer")
-inquirer.promp([
+const fs = require ("fs")
+inquirer.prompt([
     {
         type: "input",
         name: "title",
@@ -9,7 +8,7 @@ inquirer.promp([
     },
     {
         type: "input",
-        name: "developer name",
+        name: "developer",
         message: "enter developer name"
     },
     {
@@ -50,7 +49,7 @@ inquirer.promp([
     },
     {
         type: "input",
-        name: "e-mail",
+        name: "email",
         message: "enter e-mail"
     },
     {
@@ -58,4 +57,33 @@ inquirer.promp([
         name: "contributors",
         message: "add all contributors"
     }
-])
+]).then(function(userResponse){
+    console.log(userResponse)
+    var readmeText = `
+# title: ${userResponse.title}
+
+## developer: ${userResponse.developer}
+
+### profile: https://github.com/${userResponse.github}
+1. license:
+   ${userResponse.license}
+
+![GitHub License](https://img.shields.io/badge/license-${userResponse.choices}-blue.svg)
+
+1. Installation
+   ${userResponse.installation}
+
+1. Usage
+    ${userResponse.usage}
+
+1. Test
+    ${userResponse.testing}
+
+1. Contributors
+    ${userResponse.contributors}
+
+###### If you have any questions reach out to me by email. ${userResponse.email}
+    `
+console.log(readmeText)
+})
+
