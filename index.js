@@ -85,5 +85,8 @@ inquirer.prompt([
 ###### If you have any questions reach out to me by email. ${userResponse.email}
     `
 console.log(readmeText)
+fs.writeFileSync("./README.md",readmeText,function(){
+    console.log("readme-generated")
+})
 })
 
