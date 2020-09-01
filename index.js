@@ -60,15 +60,15 @@ inquirer.prompt([
 ]).then(function(userResponse){
     console.log(userResponse)
     var readmeText = `
-# title: ${userResponse.title}
+# Title: ${userResponse.title}
 
-## developer: ${userResponse.developer}
+## Developer: ${userResponse.developer}
 
-### profile: https://github.com/${userResponse.github}
-1. license:
+### Profile: https://github.com/${userResponse.github}
+1. License:
    ${userResponse.license}
 
-![GitHub License](https://img.shields.io/badge/license-${userResponse.choices}-blue.svg)
+![GitHub License](https://img.shields.io/badge/license-${userResponse.license}-blue.svg)
 
 1. Installation
    ${userResponse.installation}

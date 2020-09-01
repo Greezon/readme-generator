@@ -1,25 +1,25 @@
 
-# title: Readme - Generator
+# Title: Readme - Generator
 
-## developer: Ian N Astesana the first and only
+## Developer: Ian N Astesa
 
-### profile: https://github.com/Greezon
-1. license:
+### Profile: https://github.com/Greezon
+1. License:
    MIT
 
-![GitHub License](https://img.shields.io/badge/license-undefined-blue.svg)
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 1. Installation
-   step 1. git clone step 2. npm i
+   Step 1: Git Clone. Step 2: npm i.
 
 1. Usage
-    Free to use for personal, not commercial. I will only respond to known sources.
+    none
 
 1. Test
-    manuel
+    manual
 
 1. Contributors
-    Ian N Astesana the first, and only
+    Ian N Astesana
 
 ###### If you have any questions reach out to me by email. iastesana@gmail.com
     
