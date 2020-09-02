@@ -1,7 +1,9 @@
 
-# Title: Readme - Generator
+# Title: README.md - Generator
 
-## Developer: Ian N Astesa
+###### Desccription: I created a readme using only the command line.
+
+## Developer: Ian N. Astesana
 
 ### Profile: https://github.com/Greezon
 1. License:
@@ -9,17 +11,17 @@
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-1. Installation
-   Step 1: Git Clone. Step 2: npm i.
+1. Installation: 
+   Step 1:   Git clone.     Step 2: npm i
 
-1. Usage
+1. Usage: 
     none
 
-1. Test
-    manual
+1. Testing Methods: 
+    I manually tested everything myself.
 
-1. Contributors
-    Ian N Astesana
+1. Contributors: 
+    no other contributors
 
 ###### If you have any questions reach out to me by email. iastesana@gmail.com
     

@@ -62,6 +62,8 @@ inquirer.prompt([
     var readmeText = `
 # Title: ${userResponse.title}
 
+###### Desccription: ${userResponse.description}
+
 ## Developer: ${userResponse.developer}
 
 ### Profile: https://github.com/${userResponse.github}
@@ -70,16 +72,16 @@ inquirer.prompt([
 
 ![GitHub License](https://img.shields.io/badge/license-${userResponse.license}-blue.svg)
 
-1. Installation
+1. Installation: 
    ${userResponse.installation}
 
-1. Usage
+1. Usage: 
     ${userResponse.usage}
 
-1. Test
+1. Testing Methods: 
     ${userResponse.testing}
 
-1. Contributors
+1. Contributors: 
     ${userResponse.contributors}
 
 ###### If you have any questions reach out to me by email. ${userResponse.email}
